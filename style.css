@@ -57,9 +57,21 @@ nav {
 .list {
     display: none;
 }
+.home .image{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+}
+.home .image img{
+    width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+}
 
 .home {
     display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
     height: 100vh;
     background-image: url(./image/ppu.jpg);
     background-attachment: fixed;
